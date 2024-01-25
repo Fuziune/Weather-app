@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="ListVieww" layoutX="53.0" layoutY="53.0" prefHeight="200.0" prefWidth="353.0" />
+      <ComboBox fx:id="conbo" layoutX="430.0" layoutY="53.0" onAction="#BoxBox" prefWidth="150.0" />
+      <TextField fx:id="ho" layoutX="437.0" layoutY="116.0" onAction="#hours" />
+      <TextArea fx:id="HO" layoutX="438.0" layoutY="174.0" onDragDetected="#HOURS" prefHeight="79.0" prefWidth="149.0" />
+      <TextField fx:id="precip" layoutX="60.0" layoutY="299.0" onAction="#hours" />
+      <TextField fx:id="descript" layoutX="257.0" layoutY="299.0" onAction="#hours" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="60.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Precipitation" wrappingWidth="72.13671875" />
+      <Text layoutX="257.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="72.13671875" />
+   </children>
+</AnchorPane>
